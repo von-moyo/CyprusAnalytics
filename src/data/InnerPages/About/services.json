@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/01-dark.svg",
+    "title": "Brand Strategy & <BR> Art Direction",
+    "text": "Creating a higher spacing and how people move through a unique."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/02-dark.svg",
+    "title": "UX/UI Design & <BR> Website/App Design",
+    "text": "Creating a higher spacing and how people move through a unique."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/03-dark.svg",
+    "title": "Typography & <BR> Video Production",
+    "text": "Creating a higher spacing and how people move through a unique."
+  }
+]

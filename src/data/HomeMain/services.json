@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Marketing Strategy",
+    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus.",
+    "image": "assets/imgs/serv-icons/01-dark.svg"
+  },
+  {
+    "id": 2,
+    "title": "Product Design",
+    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus.",
+    "image": "assets/imgs/serv-icons/02-dark.svg"
+  },
+  {
+    "id": 3,
+    "title": "Website Design",
+    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus.",
+    "image": "assets/imgs/serv-icons/03-dark.svg"
+  },
+  {
+    "id": 4,
+    "title": "E-Commerce",
+    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus.",
+    "image": "assets/imgs/serv-icons/04-dark.svg"
+  }
+]
