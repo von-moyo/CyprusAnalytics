@@ -10,7 +10,7 @@ function CallToAction({ lightMode }) {
   }, []);
 
   return (
-    <section className="call-action-center section-padding position-re sub-bg">
+    <section className="call-action-center section-padding pb-30 position-re sub-bg">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">

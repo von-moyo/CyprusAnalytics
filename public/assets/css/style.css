@@ -6,6 +6,7 @@
   box-sizing: border-box;
   outline: none;
   list-style: none;
+  /* border: 1px solid; */
 }
 
 body {
@@ -2926,32 +2927,6 @@ body.loaded {
   -webkit-transform: translate(0) !important;
   -ms-transform: translate(0) !important;
   transform: translate(0) !important;
-}
-
-.navbar.nav-crev.nav-scroll {
-  background: #f1f3f5;
-  border-color: rgba(0, 0, 0, 0.1);
-  padding: 0;
-  position: fixed;
-  top: -80px;
-  -webkit-transform: translateY(80px) !important;
-  -ms-transform: translateY(80px) !important;
-  transform: translateY(80px) !important;
-  left: 0;
-  width: 100%;
-  border-radius: 0;
-}
-
-.navbar.nav-crev.nav-scroll .navbar-nav .nav-link {
-  color: #1d1d1d;
-}
-
-.navbar.nav-crev.nav-scroll .search-form .search-icon {
-  color: #1d1d1d;
-}
-
-.navbar.nav-crev.nav-scroll .search-form .search-icon:after {
-  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar.nav-crev .navbar-nav .nav-link {
@@ -7955,7 +7930,7 @@ header.in-box {
 }
 
 .crev-header {
-  min-height: 100vh;
+  min-height: 10vh;
   position: relative;
   padding: 120px 0 0;
 }
@@ -10223,16 +10198,66 @@ header.in-box {
   height: 15rem;
 }
 
+.marqqq .outer {
+  height: 4rem;
+}
+
+.marqqq {
+  background-color: #c9f31d;
+}
+
+.marqqq .outer .wrapper .skill-item .item {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.marqqq .outer .wrapper .skill-item .item a h4{
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.marquee .outer .wrapper .skill-item .item .d-flex span {
+  white-space: nowrap;
+}
+
+.marquee .outer {
+  height: 6rem;
+}
+
+.marquee .icon {
+  font-family: 'Sora', sans-serif;
+  margin-bottom: -15px;
+  color: transparent;
+  -webkit-text-stroke: 1px #1d1d1d;
+}
+
+.marquee .item {
+  padding: 0 20px;
+}
+
 .wrapper {
   position: absolute;
   display: flex;
 }
 
+
 section.grid {
   display: grid !important;
-  grid-template-columns: repeat(10, 1fr);
   grid-gap: 15px;
+  grid-template-columns: repeat(10, 1fr);
   animation: swipe var(--speed) linear infinite backwards;
+}
+
+.marqqq section.grid {
+  grid-gap: 0px;
+}
+.marquee section.grid {
+  grid-gap: 0px;
+}
+
+.floww {
+  width: 100%;
+  overflow: hidden;
 }
 
 @keyframes swipe {

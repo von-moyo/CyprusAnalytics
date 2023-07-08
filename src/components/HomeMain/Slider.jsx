@@ -1,9 +1,9 @@
 const Slider = ({ children, speed = 8000 }) => {
   return (
-    <div className="inner">
+    <div className="inner outer">
       <div className="wrapper">
         <section
-          className="skill-item grid"
+          className="skill-item grid grid2"
           style={{ "--speed": `${speed}ms` }}
         >
           {children}

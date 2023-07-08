@@ -23,7 +23,7 @@ function Skills({ lightMode }) {
           </div>
           <div className="">
             <Slider>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -34,7 +34,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">Figma</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -45,7 +45,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15"></span>Vue
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -56,7 +56,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">Angular</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -67,7 +67,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">Webflow</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -78,7 +78,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">Java</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -89,7 +89,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">Python</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
@@ -100,7 +100,7 @@ function Skills({ lightMode }) {
                 </div>
                 <span className="mt-15">React</span>
               </div>
-              <div className="item text-center">
+              <div className="item">
                 <div className="icon-img-60 m-auto">
                   <Image
                     width={500}
