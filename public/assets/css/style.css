@@ -1244,7 +1244,6 @@ img {
 
 .rest {
   padding: 0 !important;
-  margin: 0 !important;
 }
 
 .hide {
@@ -1486,7 +1485,6 @@ img.left {
 }
 
 .rest {
-  margin: 0;
   padding: 0;
 }
 
@@ -2941,6 +2939,7 @@ body.loaded {
   padding: 0;
   position: fixed;
   top: -80px;
+  height: 70px;
   -webkit-transform: translateY(80px) !important;
   -ms-transform: translateY(80px) !important;
   transform: translateY(80px) !important;
