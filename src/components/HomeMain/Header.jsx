@@ -87,8 +87,7 @@ function Header({ lightMode }) {
           </div>
           <div className="col-lg-3"></div>
         </div>
-      </div>
-      <div className="main-img">
+        <div className="main-img">
         <Image
           width={500}
           height={500}
@@ -102,6 +101,7 @@ function Header({ lightMode }) {
           lightMode ? "light" : "dark"
         }/assets/imgs/patterns/graph.png`}
       ></div>
+      </div>
     </header>
   );
 }

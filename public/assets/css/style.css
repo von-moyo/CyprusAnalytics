@@ -18,6 +18,12 @@ body {
   overflow-x: hidden !important;
 }
 
+body.home-digital .container,
+body.home-arch .container,
+body.home-corp .container {
+  max-width: 1200px;
+}
+
 body.home-main-crev,
 body.digital-marketing {
   font-family: "Epilogue", sans-serif;
@@ -2929,6 +2935,20 @@ body.loaded {
   transform: translate(0) !important;
 }
 
+.navbar.nav-crev.nav-scroll {
+  background: #f1f3f5;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding: 0;
+  position: fixed;
+  top: -80px;
+  -webkit-transform: translateY(80px) !important;
+  -ms-transform: translateY(80px) !important;
+  transform: translateY(80px) !important;
+  left: 0;
+  width: 100%;
+  border-radius: 0;
+}
+
 .navbar.nav-crev .navbar-nav .nav-link {
   color: #1d1d1d;
 }
@@ -5752,7 +5772,7 @@ footer .bg-pattern {
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
-  width: calc(100% + 60px);
+  width: calc(100% + 30px);
   margin-left: -30px;
   background: #c9f31d;
 }
