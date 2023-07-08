@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-//= Components
-//= Scripts
 import loadBackgroudImages from "@/common/loadBackgroudImages";
 
 function Header({ lightMode }) {

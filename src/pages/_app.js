@@ -24,7 +24,6 @@ function App({ Component, pageProps }) {
       <Script strategy="beforeInteractive" src="/assets/js/TweenMax.min.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/charming.min.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/countdown.js"></Script>
-      {/* <Script strategy="beforeInteractive" src="/assets/js/parallax.min.js"></Script> */}
       <Script strategy="beforeInteractive" src="/assets/js/ScrollTrigger.min.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/gsap.min.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/splitting.min.js"></Script>
@@ -32,7 +31,7 @@ function App({ Component, pageProps }) {
       <Script strategy="beforeInteractive" src="/assets/js/imgReveal/imagesloaded.pkgd.min.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/ScrollSmoother.min.js"></Script>
       <Script strategy="beforeInteractive" src="/showcase/assets/js/anime.min.js"></Script>
-      <Script strategy="lazyOnload" src="/assets/js/imgReveal/demo.js"></Script>
+      {/* <Script strategy="lazyOnload" src="/assets/js/imgReveal/demo.js"></Script> */}
       <Script strategy="lazyOnload" src="/assets/js/scripts.js"></Script>
       <Script strategy="beforeInteractive" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></Script>
     </>
