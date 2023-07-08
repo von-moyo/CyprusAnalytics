@@ -89,16 +89,10 @@ function Header({ lightMode }) {
         <Image
           width={500}
           height={500}
-          src="/assets/imgs/background/14.jpg"
+          src="/assets/imgs/background/14."
           alt=""
         />
       </div>
-      <div
-        className="bg-pattern bg-img"
-        data-background={`/${
-          lightMode ? "light" : "dark"
-        }/assets/imgs/patterns/graph.png`}
-      ></div>
       </div>
     </header>
   );
