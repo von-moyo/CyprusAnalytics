@@ -19,7 +19,7 @@ function Portfolio() {
             <div className="col-lg-5 d-flex align-items-center">
               <div className="full-width d-flex justify-content-end justify-end">
                 <div className="vew-all">
-                  <Link href="/portfolio-grid-3">
+                  <Link href="/portfolio">
                     View All Works
                     <span>
                       <svg

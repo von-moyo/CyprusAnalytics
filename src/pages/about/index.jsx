@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 //= Packages
 import Head from "next/head";
+import Layout from "@/layouts/default";
+
 //= Components
 
 import Navbar from "@/components/Common/MainNavbar";
@@ -45,6 +47,6 @@ function PageAboutLight() {
   );
 }
 
-// PageAboutLight.getLayout = (page) => <Layout lightMode>{page}</Layout>;
+PageAboutLight.getLayout = (page) => <Layout lightMode>{page}</Layout>;
 
 export default PageAboutLight;

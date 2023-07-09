@@ -14,7 +14,7 @@ function CallToAction({ lightMode }) {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="sec-lg-head text-center">
+            <div className="sec-lg-head s7 text-center">
               <h2 className="fz-70 fw-700">
                 <span>Have a project in mind?</span> <br />
                 <span className="underline">

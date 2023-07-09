@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 //= Packages
 import Head from 'next/head';
+import Layout from "@/layouts/default";
+
 //= Components
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/InnerPages/ProjectDetails/Header';
@@ -30,5 +32,7 @@ function ProjectDetailsLight() {
     </>
   )
 }
+
+ProjectDetailsLight.getLayout = (page) => <Layout>{page}</Layout>;
 
 export default ProjectDetailsLight;

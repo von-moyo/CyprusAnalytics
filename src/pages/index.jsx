@@ -3,7 +3,7 @@ import Image from "next/image";
 //= Packages
 import Head from "next/head";
 //= Layout
-// import Layout from "@/layouts/default";
+import Layout from "@/layouts/default";
 //= Components
 
 import Navbar from "@/components/Common/MainNavbar";
@@ -92,6 +92,6 @@ function HomeMainLight() {
   );
 }
 
-// HomeMainLight.getLayout = (page) => <Layout>{page}</Layout>;
+HomeMainLight.getLayout = (page) => <Layout>{page}</Layout>;
 
 export default HomeMainLight;

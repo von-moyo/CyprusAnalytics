@@ -2,9 +2,10 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 //= Packages
 import Head from "next/head";
+import Layout from "@/layouts/default";
+
 
 import Navbar from "@/components/Common/MainNavbar";
-import Header from "@/components/InnerPages/Blog/Header";
 import Classic from "@/components/InnerPages/Blog/Classic";
 import Footer from "@/components/HomeMain/Footer";
 
@@ -27,7 +28,6 @@ function BlogClassicLight() {
 
       <Navbar mainBg curve noStatic lightMode />
       <main className="main-bg">
-        <Header data={metadata} />
         <Classic />
       </main>
       <Footer lightMode />
@@ -35,6 +35,6 @@ function BlogClassicLight() {
   );
 }
 
-// BlogClassicLight.getLayout = (page) => <Layout lightMode>{page}</Layout>;
+BlogClassicLight.getLayout = (page) => <Layout lightMode>{page}</Layout>;
 
 export default BlogClassicLight;

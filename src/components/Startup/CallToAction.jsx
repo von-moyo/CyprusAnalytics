@@ -13,7 +13,7 @@ function CallToAction({ lightMode, innerPageStyle }) {
     <section className="call-action-img">
       <div className="container">
         <div className="sec-bg-img bg-img parallaxie green-bg"></div>
-        <div className="sec-lg-head section-padding">
+        <div className="sec-lg-head s7 section-padding">
           <div className="row ontop">
             <div className="col-11 d-flex align-items-center">
               <div className="valign">

@@ -46,11 +46,14 @@ function Header() {
             </div>
           </div>
         </div>
+        <Image
+          width={500}
+          height={500}
+          className="bg-img"
+          src="/assets/imgs/works/projects/1/1.jpg"
+          alt=""
+        />
       </div>
-      <div
-        className="bg-img"
-        data-background="/assets/imgs/works/projects/1/1.jpg"
-      ></div>
     </header>
   );
 }
