@@ -4,200 +4,84 @@ import Image from "next/image";
 import parallaxie from "@/common/parallaxie";
 
 function Content() {
-  useEffect(() => {
-    parallaxie(".back-image.parallaxie", 0.4);
-  }, []);
+  // useEffect(() => {
+  //   parallaxie(".back-image.parallaxie", 0.4);
+  // }, []);
 
   return (
-    <section className="section-padding">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4">
-            <div className="text">
-              <h3>We create everything digital, printable and analytical.</h3>
-            </div>
-          </div>
-          <div className="col-lg-7 offset-lg-1">
-            <div className="text">
-              <p className="mb-50">
-                Won’t seasons, appear days them stars replenish divided. All
-                second forth. Him place was seas man and gathering creepeth
-                called fly. Them sea place lights, midst bearing fourth above.
-              </p>
-              <div className="row">
-                <div className="col-md-6">
-                  <ul className="rest dot-list">
-                    <li className="mb-15">Brand Development</li>
-                    <li className="mb-15">Art Direction</li>
-                    <li className="mb-15">Marketing Strategy</li>
-                    <li className="mb-15">Mobile App Design</li>
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul className="rest dot-list">
-                    <li className="mb-15">Content Management</li>
-                    <li className="mb-15">System & Guides</li>
-                    <li className="mb-15">Graphic Design</li>
-                    <li className="mb-15">Brand Development</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+      <div className="container portfolioo">
+        <img
+          src="/assets/imgs/portfolio/Hero-X_large.jpg"
+          alt=""
+          className="heroImage"
+        />
+        <div className="heroDescription">
+          <h2 className="heroTitle">Yoowa: Food Delivery App</h2>
+          <p className="heroText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br/>
+          culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          </p>
+        </div>
+        <div className="firstImageSection">
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Delivery man-X_large.jpg"
+          />
+          <iframe className="iframe" src="https://player.vimeo.com/video/846596223?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="590" height="664" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Yoowa Display Animation 4k"></iframe>
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Billboard-X_large.jpg"
+          />
+        </div>
+        <div className="secondImageSection">
+          <img
+            className="people"
+            alt=""
+            src="/assets/imgs/portfolio/People-X_large.jpg"
+          />
+          <div>
+            <img
+            className="stickers"
+            alt=""
+            src="/assets/imgs/portfolio/Stickers-X_large.jpg"
+          />
+            <img
+            alt=""
+            src="/assets/imgs/portfolio/Shirts-X_large.jpg"
+          />
           </div>
         </div>
-        <div className="row md-marg mt-50">
-          <div className="col-lg-4">
-            <div className="img mb-50">
-              <Image
-                width={500}
-                height={500}
-                src="/assets/imgs/works/projects/1/2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="img mb-50">
-              <Image
-                width={500}
-                height={500}
-                src="/assets/imgs/works/projects/1/3.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="img mb-50">
-              <Image
-                width={500}
-                height={500}
-                src="/assets/imgs/works/projects/1/4.jpg"
-                alt=""
-              />
-            </div>
-          </div>
+        <iframe className="iframe" src="https://player.vimeo.com/video/846595872?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="488" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="icon animation 4k"></iframe>
+        <div className="thirdImageSection">
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Food pack-X_large.jpg"
+          />
+          <img
+            className="banner"
+            alt=""
+            src="/assets/imgs/portfolio/Large Banner-X_large.png"
+          />
         </div>
-
-        <div
-          className="back-image bg-img parallaxie"
-          data-background="/assets/imgs/works/projects/1/5.jpg"
-        ></div>
-
-        <div className="row justify-content-center">
-          <div className="col-lg-8">
-            <div className="text-center mt-50">
-              <h5 className="fw-200">
-                Working collaboratively with brands and agencies worldwide.
-                Designing and developing websites and applications with a focus
-                on interaction, motion and visual experience.
-              </h5>
-            </div>
-          </div>
+        <div className="fourthImageSection">
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Hand holding phone-X_large.jpg"
+          />
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Woman eating-X_large.jpg"
+          />
         </div>
-
-        <div className="row mt-100">
-          <div className="col-lg-4">
-            <div className="img md-mb50">
-              <Image
-                width={500}
-                height={500}
-                src="/assets/imgs/works/projects/1/3.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-lg-7 offset-lg-1 valign">
-            <div className="text">
-              <h5 className="fw-200">
-                Working collaboratively with brands and agencies worldwide.
-                Designing and developing websites and applications with a focus
-                on interaction, motion and visual experience.
-              </h5>
-              <ul className="rest list-arrow mt-50">
-                <li>
-                  <span className="icon">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 9 8"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  <h6 className="inline fz-18">Amazing communication.</h6>
-                </li>
-                <li className="mt-10">
-                  <span className="icon">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 9 8"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  <h6 className="inline fz-18">
-                    Best trendinf designing experience.
-                  </h6>
-                </li>
-                <li className="mt-10">
-                  <span className="icon">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 9 8"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  <h6 className="inline fz-18">Email &amp; Live chat.</h6>
-                </li>
-                <li className="mt-10">
-                  <span className="icon">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 9 8"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  <h6 className="inline fz-18">Amazing communication.</h6>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <iframe className="iframe" src="https://player.vimeo.com/video/846610612?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="590" height="787" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Food moving with stop motion effect 4k"></iframe>
+        <div className="fifthImageSection">
+          <img
+            alt=""
+            src="/assets/imgs/portfolio/Bottle floating-X_large.jpg"
+          />
         </div>
+        <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="692" height="256" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
       </div>
-    </section>
   );
 }
 

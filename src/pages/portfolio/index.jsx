@@ -5,9 +5,7 @@ import Layout from "@/layouts/default";
 
 //= Components
 import Navbar from '@/components/Common/MainNavbar';
-import Header from '@/components/InnerPages/ProjectDetails/Header';
 import Content from '@/components/InnerPages/ProjectDetails/Content';
-import CallToAction from '@/components/InnerPages/ProjectDetails/CallToAction';
 import Footer from "@/components/HomeMain/Footer";
 
 
@@ -20,13 +18,11 @@ function ProjectDetailsLight() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Project Details</title>
+        <title>CyprusAnalytics - Portfolio</title>
       </Head>
       <Navbar mainBg lightMode />
       <main>
-        <Header />
         <Content />
-        <CallToAction />
       </main>
       <Footer lightMode />
     </>
