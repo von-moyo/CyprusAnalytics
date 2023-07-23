@@ -34,25 +34,38 @@ function Content() {
           />
         </div>
         <div className="secondImageSection">
+          <div className="fr">
+          <iframe
+            className="one"
+            src="https://player.vimeo.com/video/846595872?h=4adcd8e23f&autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1"
+            style={{ width: '100%', height: '100%' }}
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+            ></iframe>
+          </div>
+          <div className="secondcl">
+            <img
+            className="stickers"
+            alt=""
+            src="/assets/imgs/portfolio/Stickers-X_large.jpg"
+            />
+            {/* <div className="smile">
+              <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
+            </div> */}
+            <img
+            alt=""
+            src="/assets/imgs/portfolio/Shirts-X_large.jpg"
+            />
+          </div>
+        </div>
+
+        <div className="firstImageSection">
           <img
             className="people"
             alt=""
             src="/assets/imgs/portfolio/People-X_large.jpg"
           />
-          <div>
-            <img
-            className="stickers"
-            alt=""
-            src="/assets/imgs/portfolio/Stickers-X_large.jpg"
-          />
-            <img
-            alt=""
-            src="/assets/imgs/portfolio/Shirts-X_large.jpg"
-          />
-          </div>
-        </div>
-        <iframe className="iframe" src="https://player.vimeo.com/video/846595872?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="488" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="icon animation 4k"></iframe>
-        <div className="thirdImageSection">
           <img
             alt=""
             src="/assets/imgs/portfolio/Food pack-X_large.jpg"
@@ -73,14 +86,17 @@ function Content() {
             src="/assets/imgs/portfolio/Woman eating-X_large.jpg"
           />
         </div>
-        <iframe className="iframe" src="https://player.vimeo.com/video/846610612?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="590" height="787" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Food moving with stop motion effect 4k"></iframe>
-        <div className="fifthImageSection">
+        <div className="firstImageSection">
+          <iframe className="iframe" src="https://player.vimeo.com/video/846610612?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Food moving with stop motion effect 4k"></iframe>
           <img
             alt=""
             src="/assets/imgs/portfolio/Bottle floating-X_large.jpg"
           />
         </div>
-        <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="692" height="256" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
+        <img
+            alt=""
+            src="/assets/imgs/portfolio/Shirts-X_large.jpg"
+        />
       </div>
   );
 }
