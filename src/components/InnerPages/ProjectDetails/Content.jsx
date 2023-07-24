@@ -21,6 +21,9 @@ function Content() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br/>
           culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
           </p>
+      </div>
+        <div>
+          <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
         </div>
         <div className="firstImageSection">
           <img
@@ -50,9 +53,6 @@ function Content() {
             alt=""
             src={`/assets/imgs/portfolio/Stickers-X_large.jpg`}
             />
-            {/* <div className="smile">
-              <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
-            </div> */}
             <img
             alt=""
             src={`/assets/imgs/portfolio/Shirts-X_large.jpg`}
