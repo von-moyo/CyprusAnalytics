@@ -23,10 +23,12 @@ function Content() {
           </p>
       </div>
         <div>
-          <iframe className="iframe" src="https://player.vimeo.com/video/846596077?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Smile Word Language 4k"></iframe>
         </div>
-        <div className="firstImageSection">
-          <img
+        <div className="imageSection">
+          <Image
+            width={2031}
+            height={4096}
+            className="deliveryManImage"
             alt=""
             src={`/assets/imgs/portfolio/Delivery man-X_large.jpg`}
           />
@@ -60,7 +62,7 @@ function Content() {
           </div>
         </div>
 
-        <div className="firstImageSection">
+        <div className="imageSection noMargin">
           <img
             className="people"
             alt=""
@@ -86,7 +88,7 @@ function Content() {
             src={`/assets/imgs/portfolio/Woman eating-X_large.jpg`}
           />
         </div>
-        <div className="firstImageSection">
+        <div className="imageSection noMargin">
           <iframe className="iframe" src="https://player.vimeo.com/video/846610612?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Food moving with stop motion effect 4k"></iframe>
           <img
             alt=""

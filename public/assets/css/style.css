@@ -10227,6 +10227,47 @@ header.in-box {
   margin: 30px 0px;
 }
 
+.heroTitle {
+  font-size: 30px;
+}
+
+.heroText {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 20px;
+  }
+  
+  .heroText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heroTitle {
+    line-height: 1;
+    margin-bottom: 0rem;
+  }
+  .heroText {
+    font-size: 10px;
+  }
+  .portfolioo > div {
+    grid-gap: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .deliveryManImage {
+    height: 100%;
+  }
+  .noMargin {
+    margin-top: 0.5rem !important;
+  }
+  .stickers {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
 .portfolioo > img, 
 .portfolioo > div > img, 
 .portfolioo > div > div > img, 
@@ -10241,17 +10282,22 @@ header.in-box {
   margin-bottom: 1rem;
 }
 
+Image {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .iframe {
   width: 100% !important;
   height: 100% !important;
 }
 
-.firstImageSection {
+.imageSection {
   margin: 20px 0px;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.firstImageSection :nth-child(3) {
+.imageSection :nth-child(3) {
   grid-column: span 2;
 }
 
