@@ -30,7 +30,7 @@ function Content() {
             height={4096}
             className="deliveryManImage"
             alt=""
-            src={`/assets/imgs/portfolio/Delivery man-X_large.jpg`}
+            src="/assets/imgs/portfolio/Delivery man-X_large.jpg"
           />
           <iframe className="iframe" src="https://player.vimeo.com/video/846596223?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="590" height="664" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Yoowa Display Animation 4k"></iframe>
           <img
