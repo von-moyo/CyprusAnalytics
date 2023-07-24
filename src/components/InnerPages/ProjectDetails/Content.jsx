@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
-//= Scripts
-import parallaxie from "@/common/parallaxie";
 
 function Content() {
   // useEffect(() => {
@@ -10,6 +8,10 @@ function Content() {
 
   return (
       <div className="container portfolioo">
+        <div
+              className="bg-img radius-10 md-mb50"
+              data-background="/assets/imgs/about/sq1.jpg"
+            ></div>
         <img
           src={`/assets/imgs/portfolio/Hero-X_large.jpg`}
           alt=""
