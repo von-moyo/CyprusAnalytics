@@ -8,12 +8,8 @@ function Content() {
 
   return (
       <div className="container portfolioo">
-        <div
-              className="bg-img radius-10 md-mb50"
-              data-background="/assets/imgs/about/sq1.jpg"
-            ></div>
         <img
-          src={`/assets/imgs/portfolio/Hero-X_large.jpg`}
+          src={`/assets/imgs/portfolio/hero.jpg`}
           alt=""
           className="heroImage"
         />
@@ -32,12 +28,12 @@ function Content() {
             height={4096}
             className="deliveryManImage"
             alt=""
-            src="/assets/imgs/portfolio/Delivery man-X_large.jpg"
+            src="/assets/imgs/portfolio/delivery.jpg"
           />
           <iframe className="iframe" src="https://player.vimeo.com/video/846596223?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="590" height="664" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Yoowa Display Animation 4k"></iframe>
           <img
             alt=""
-            src={`/assets/imgs/portfolio/Billboard-X_large.jpg`}
+            src={`/assets/imgs/portfolio/billboard.jpg`}
           />
         </div>
         <div className="secondImageSection">
@@ -55,11 +51,11 @@ function Content() {
             <img
             className="stickers"
             alt=""
-            src={`/assets/imgs/portfolio/Stickers-X_large.jpg`}
+            src={`/assets/imgs/portfolio/stickers.jpg`}
             />
             <img
             alt=""
-            src={`/assets/imgs/portfolio/Shirts-X_large.jpg`}
+            src={`/assets/imgs/portfolio/shirts.jpg`}
             />
           </div>
         </div>
@@ -68,38 +64,38 @@ function Content() {
           <img
             className="people"
             alt=""
-            src={`/assets/imgs/portfolio/People-X_large.jpg`}
+            src={`/assets/imgs/portfolio/people.jpg`}
           />
           <img
             alt=""
-            src={`/assets/imgs/portfolio/Food pack-X_large.jpg`}
+            src={`/assets/imgs/portfolio/foodpack.jpg`}
           />
           <img
           className="banner"
           alt=""
-          src={`/assets/imgs/portfolio/Large Banner-X_large.png`}
+          src={`/assets/imgs/portfolio/banner.png`}
           />
         </div>
         <div className="fourthImageSection">
           <img
             alt=""
-            src={`/assets/imgs/portfolio/Hand holding phone-X_large.jpg`}
+            src={`/assets/imgs/portfolio/phone.jpg`}
           />
           <img
             alt=""
-            src={`/assets/imgs/portfolio/Woman eating-X_large.jpg`}
+            src={`/assets/imgs/portfolio/eating.jpg`}
           />
         </div>
         <div className="imageSection noMargin">
           <iframe className="iframe" src="https://player.vimeo.com/video/846610612?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;loop=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Food moving with stop motion effect 4k"></iframe>
           <img
             alt=""
-            src={`/assets/imgs/portfolio/Bottle floating-X_large.jpg`}
+            src={`/assets/imgs/portfolio/bottle.jpg`}
           />
         </div>
         <img
             alt=""
-            src={`/assets/imgs/portfolio/Shirts-X_large.jpg`}
+            src={`/assets/imgs/portfolio/shirts.jpg`}
         />
       </div>
   );
