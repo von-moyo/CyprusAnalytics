@@ -10220,7 +10220,7 @@ header.in-box {
 }
 
 .portfolioo {
-  margin-top: 50px;
+  margin: 50px 0px 30px 0px;
 }
 
 .heroDescription {
@@ -10243,9 +10243,15 @@ header.in-box {
   .heroText {
     font-size: 12px;
   }
+  .portfolioo {
+    margin: 30px 0px 20px 0px;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .portfolioo {
+    margin-top: 20px;
+  }
   .heroTitle {
     line-height: 1;
     margin-bottom: 0rem;
@@ -10266,6 +10272,10 @@ header.in-box {
   .stickers {
     margin-bottom: 0.5rem !important;
   }
+  .portfolioo {
+    margin: 20px 0px 10px 0px;
+  }
+
 }
 
 .portfolioo > img, 

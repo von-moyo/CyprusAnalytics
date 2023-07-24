@@ -94,8 +94,8 @@ function Content() {
           />
         </div>
         <img
-            alt=""
-            src={`/assets/imgs/portfolio/shirts.jpg`}
+          alt=""
+          src={`/assets/imgs/portfolio/shirts.jpg`}
         />
       </div>
   );
