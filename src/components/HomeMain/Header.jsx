@@ -89,7 +89,7 @@ function Header({ lightMode }) {
         <Image
           width={500}
           height={500}
-          src="/assets/imgs/background/14."
+          src="/assets/imgs/background/banner.jpg"
           alt=""
         />
       </div>
